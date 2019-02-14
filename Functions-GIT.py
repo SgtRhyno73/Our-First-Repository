@@ -14,11 +14,11 @@ greeting()
 
 '''
 
-# 4.13.4: functions and variables
+# 4.13.4: Functions and Variables
 # Keegan Killian
 # 2.14.19
 
-x = 2022
+x = 2202
 
 def print_something():
     x = 22
@@ -26,3 +26,4 @@ def print_something():
 
 print_something()
 print(x)
+
