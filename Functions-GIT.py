@@ -57,3 +57,15 @@ print_number(15)
 print_number('\n' + 'Hello World')
 
 
+# 4.14.4: Name and Age
+# Keegan Killian
+# 2.18.19
+
+def name_and_age(name, age):
+    print('\n' 'Hi, my name is',name, 'and I am',str(age), 'years old.')
+
+name_and_age('Keegan', 15)
+name_and_age('paul', 18)
+name_and_age('bill', 76)
+
+
