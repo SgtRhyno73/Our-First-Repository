@@ -97,3 +97,15 @@ def Print_Many_Times(string, times):
 Print_Many_Times('moo', 1000)
 
 
+
+# 4.14.7: Print Many Times
+# 2.19.19
+
+
+
+def Print_Many_Times(string, times):
+    for i in range(times):
+        print(string)
+
+Print_Many_Times('moo', 1000)
+
