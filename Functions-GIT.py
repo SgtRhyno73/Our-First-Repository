@@ -75,11 +75,25 @@ name_and_age('bill', 76)
 # 2.19.19
 
 
+
 def print_two_numbers(x, y = 20):
     print('First number:', x)
     print('Second number:', y)
 
 print_two_numbers(5, 67)
 print_two_numbers(23)
+
+
+
+# 4.14.7: Print Many Times
+# 2.19.19
+
+
+
+def Print_Many_Times(string, times):
+    for i in range(times):
+        print(string)
+
+Print_Many_Times('moo', 1000)
 
 
