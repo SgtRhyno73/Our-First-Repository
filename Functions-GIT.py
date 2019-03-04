@@ -101,11 +101,21 @@ Print_Many_Times('moo', 1000)
 # 4.14.7: Print Many Times
 # 2.19.19
 
-
-
 def Print_Many_Times(string, times):
     for i in range(times):
         print(string)
 
 Print_Many_Times('moo', 1000)
 
+
+
+# 4.16.3: Enter a number
+# Keegan Killian
+# 2.20.19
+
+try:
+    my_number = int(input('Enter a integer: '))
+    print('your number: ' + str(my_number))
+
+except ValueError:
+    print('that was not an integer')
