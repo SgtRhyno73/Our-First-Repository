@@ -122,6 +122,7 @@ except ValueError:
 
 
 
+<<<<<<< HEAD
 # 4.16.6: temperature converter
 # 2.20.19
 
@@ -142,3 +143,19 @@ except ValueError:
     print('you must enter a float')
 
 
+=======
+# 4.16.4: Enter name and age
+# 2.20.19
+
+name = input('Enter your name: ')
+
+age = -1
+
+try:
+    age = int(input('Enter your age:'))
+except ValueError:
+    print('That was not a valid number')
+
+print('\n''name:',name)
+print('age:',age)
+>>>>>>> Enter-name-and-age
